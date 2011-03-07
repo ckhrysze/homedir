@@ -1,0 +1,4 @@
+--type-add=ruby=Gemfile,.builder
+--type-add=css=.scss
+--type-add=xml=.ofx
+--ignore-dir=tmp

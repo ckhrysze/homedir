@@ -28,12 +28,13 @@ bindkey "^[[1;5D" backward-word
 # Also, this needs to be after oh my zsh and before rvm
 unsetopt auto_name_dirs
 
+
 if [[ -s /home/hildebrandc/.rvm/scripts/rvm ]] ; then source /home/hildebrandc/.rvm/scripts/rvm ; fi
 
 # Customize to your needs...
 export PATH=/home/hildebrandc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/var/lib/gems/1.8/gems/heroku-1.6.5/bin:/home/hildebrandc/mp/bin
 
-source .private
+source $HOME/.private
 
 # Q, the fast loading option
 export EDITOR="emacs -Q"
