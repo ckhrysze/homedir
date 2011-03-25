@@ -2,3 +2,4 @@
 --type-add=css=.scss
 --type-add=xml=.ofx
 --ignore-dir=tmp
+--nosql
